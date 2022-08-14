@@ -2,8 +2,7 @@ name: release-gh-pages
 
 on:
   push:
-    tags:
-      - "v*.*.*"
+    branches: [main]
 
 env:
   PUBLIC_URL: /shell/
