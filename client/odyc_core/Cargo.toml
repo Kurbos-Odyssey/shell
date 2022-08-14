@@ -1,0 +1,11 @@
+[package]
+name = "odyc"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+odyc_camera = { path = "../odyc_camera" }
+odyc_player = { path = "../odyc_player" }
+odyc_ui = { path = "../odyc_ui" }
+odyc_world = { path = "../odyc_world" }
+bevy = { version = "0.8.0" }
