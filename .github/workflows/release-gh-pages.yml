@@ -5,7 +5,7 @@ on:
     branches: [main]
 
 env:
-  PUBLIC_URL: /shell/
+  PUBLIC_URL: /3d-wasm-example/
 
 jobs:
   setup:
